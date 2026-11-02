@@ -1,0 +1,168 @@
+{
+  "employees": [
+    {
+      "user_id": "EMP0009",
+      "name": "Meera Kulkarni",
+      "email": "emp0009@example.com",
+      "department": "HR",
+      "location": "Hyderabad",
+      "job_title": "Financial Analyst",
+      "is_vip": false,
+      "role": "employee"
+    },
+    {
+      "user_id": "EMP0010",
+      "name": "Neha Reddy",
+      "email": "emp0010@example.com",
+      "department": "Sales",
+      "location": "Noida",
+      "job_title": "Sales Associate",
+      "is_vip": false,
+      "role": "employee"
+    },
+    {
+      "user_id": "EMP0011",
+      "name": "Priya Joshi",
+      "email": "emp0011@example.com",
+      "department": "Engineering",
+      "location": "Chennai",
+      "job_title": "Software Engineer",
+      "is_vip": false,
+      "role": "employee"
+    },
+    {
+      "user_id": "EMP0012",
+      "name": "Rohan Iyer",
+      "email": "emp0012@example.com",
+      "department": "Operations",
+      "location": "Bengaluru",
+      "job_title": "Operations Specialist",
+      "is_vip": false,
+      "role": "employee"
+    },
+    {
+      "user_id": "EMP0013",
+      "name": "Sana Nair",
+      "email": "emp0013@example.com",
+      "department": "Legal",
+      "location": "Pune",
+      "job_title": "HR Partner",
+      "is_vip": false,
+      "role": "employee"
+    }
+  ],
+  "agents": [
+    {
+      "user_id": "AGT001",
+      "name": "Isha Rao",
+      "email": "agent001@example.com",
+      "department": "IT",
+      "location": "Chennai",
+      "job_title": "Support Analyst",
+      "is_vip": false,
+      "role": "agent",
+      "assignment_group": "Identity & Access Mgmt (IAM)"
+    },
+    {
+      "user_id": "AGT010",
+      "name": "Aarav Iyer",
+      "email": "agent010@example.com",
+      "department": "IT",
+      "location": "Noida",
+      "job_title": "Support Analyst",
+      "is_vip": false,
+      "role": "agent",
+      "assignment_group": "Application Support"
+    },
+    {
+      "user_id": "AGT020",
+      "name": "Priya Reddy",
+      "email": "agent020@example.com",
+      "department": "IT",
+      "location": "Noida",
+      "job_title": "Support Analyst",
+      "is_vip": false,
+      "role": "agent",
+      "assignment_group": "Service Desk L1"
+    },
+    {
+      "user_id": "AGT021",
+      "name": "Meera Menon",
+      "email": "agent021@example.com",
+      "department": "IT",
+      "location": "Chennai",
+      "job_title": "Support Analyst",
+      "is_vip": false,
+      "role": "agent",
+      "assignment_group": "Collaboration Support"
+    },
+    {
+      "user_id": "AGT022",
+      "name": "Rohan Kulkarni",
+      "email": "agent022@example.com",
+      "department": "IT",
+      "location": "Bengaluru",
+      "job_title": "Support Analyst",
+      "is_vip": false,
+      "role": "agent",
+      "assignment_group": "Desktop Support"
+    },
+    {
+      "user_id": "AGT023",
+      "name": "Arjun Rao",
+      "email": "agent023@example.com",
+      "department": "IT",
+      "location": "Pune",
+      "job_title": "Support Analyst",
+      "is_vip": false,
+      "role": "agent",
+      "assignment_group": "Network Operations"
+    },
+    {
+      "user_id": "AGT024",
+      "name": "Kabir Menon",
+      "email": "agent024@example.com",
+      "department": "IT",
+      "location": "Hyderabad",
+      "job_title": "Support Analyst",
+      "is_vip": false,
+      "role": "agent",
+      "assignment_group": "Infrastructure Ops"
+    },
+    {
+      "user_id": "AGT025",
+      "name": "Meera Kapoor",
+      "email": "agent025@example.com",
+      "department": "IT",
+      "location": "Noida",
+      "job_title": "Support Analyst",
+      "is_vip": false,
+      "role": "agent",
+      "assignment_group": "Security Operations (SOC)"
+    }
+  ],
+  "managers": [
+    {
+      "user_id": "MGR01",
+      "name": "Arjun Menon",
+      "email": "manager01@example.com",
+      "department": "IT",
+      "location": "Chennai",
+      "job_title": "Service Desk Manager",
+      "is_vip": false,
+      "role": "manager",
+      "assignment_group": null
+    },
+    {
+      "user_id": "MGR02",
+      "name": "Dev Das",
+      "email": "manager02@example.com",
+      "department": "IT",
+      "location": "Bengaluru",
+      "job_title": "Service Desk Manager",
+      "is_vip": false,
+      "role": "manager",
+      "assignment_group": null
+    }
+  ]
+}

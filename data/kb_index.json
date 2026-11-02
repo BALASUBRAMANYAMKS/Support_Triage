@@ -1,0 +1,1051 @@
+[
+  {
+    "kb_id": "KB0001",
+    "title": "Password Reset: a password reset link expires before use: guided fix",
+    "category": "Access & Identity",
+    "subcategory": "Password Reset",
+    "applies_to": [
+      "Active Directory"
+    ],
+    "audience": "agent",
+    "keywords": [
+      "active directory",
+      "password",
+      "reset",
+      "token"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0001.md"
+  },
+  {
+    "kb_id": "KB0002",
+    "title": "Password Reset: new password rejected after reset: guided fix",
+    "category": "Access & Identity",
+    "subcategory": "Password Reset",
+    "applies_to": [
+      "Active Directory"
+    ],
+    "audience": "agent",
+    "keywords": [
+      "active directory",
+      "password",
+      "reset",
+      "token"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0002.md"
+  },
+  {
+    "kb_id": "KB0003",
+    "title": "Account Locked: unlock state has not synchronized: guided fix",
+    "category": "Access & Identity",
+    "subcategory": "Account Locked",
+    "applies_to": [
+      "Active Directory"
+    ],
+    "audience": "agent",
+    "keywords": [
+      "active directory",
+      "credential",
+      "locked",
+      "sign-in"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0003.md"
+  },
+  {
+    "kb_id": "KB0004",
+    "title": "MFA: the authenticator prompt does not arrive on the registered phone: guided fix",
+    "category": "Access & Identity",
+    "subcategory": "MFA",
+    "applies_to": [
+      "Okta/Entra ID"
+    ],
+    "audience": "agent",
+    "keywords": [
+      "MFA",
+      "authenticator",
+      "okta/entra id",
+      "verification"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0004.md"
+  },
+  {
+    "kb_id": "KB0005",
+    "title": "Unexpected repeated MFA prompts while idle: guided fix",
+    "category": "Security",
+    "subcategory": "Suspicious Login",
+    "applies_to": [
+      "Okta/Entra ID"
+    ],
+    "audience": "agent",
+    "keywords": [
+      "MFA",
+      "authenticator",
+      "okta/entra id",
+      "verification"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0005.md"
+  },
+  {
+    "kb_id": "KB0006",
+    "title": "New Access Request: new hire needs read-only access to the onboarding site: guided fix",
+    "category": "Access & Identity",
+    "subcategory": "New Access Request",
+    "applies_to": [
+      "SAP"
+    ],
+    "audience": "agent",
+    "keywords": [
+      "access",
+      "joiner",
+      "provisioning",
+      "sap"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0006.md"
+  },
+  {
+    "kb_id": "KB0007",
+    "title": "Permission Change: former team access remains after department transfer: guided fix",
+    "category": "Access & Identity",
+    "subcategory": "Permission Change",
+    "applies_to": [
+      "Okta/Entra ID"
+    ],
+    "audience": "agent",
+    "keywords": [
+      "access",
+      "group",
+      "okta/entra id",
+      "permission"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0007.md"
+  },
+  {
+    "kb_id": "KB0008",
+    "title": "Distribution List: removed employee still receives announcements: guided fix",
+    "category": "Email & Collaboration",
+    "subcategory": "Distribution List",
+    "applies_to": [
+      "Exchange Online"
+    ],
+    "audience": "agent",
+    "keywords": [
+      "access",
+      "exchange online",
+      "group",
+      "permission"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0008.md"
+  },
+  {
+    "kb_id": "KB0009",
+    "title": "Outlook: messages remain stuck in the Outbox: guided fix",
+    "category": "Email & Collaboration",
+    "subcategory": "Outlook",
+    "applies_to": [
+      "Outlook"
+    ],
+    "audience": "agent",
+    "keywords": [
+      "Outlook",
+      "calendar",
+      "crash",
+      "outlook"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0009.md"
+  },
+  {
+    "kb_id": "KB0010",
+    "title": "Mailbox / Quota: mail cannot be sent because the mailbox is over quota: guided fix",
+    "category": "Email & Collaboration",
+    "subcategory": "Mailbox / Quota",
+    "applies_to": [
+      "Exchange Online"
+    ],
+    "audience": "agent",
+    "keywords": [
+      "attachment",
+      "exchange online",
+      "mailbox",
+      "quota"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0010.md"
+  },
+  {
+    "kb_id": "KB0011",
+    "title": "Mailbox / Quota: mail cannot be sent because the mailbox is over quota: guided fix",
+    "category": "Email & Collaboration",
+    "subcategory": "Mailbox / Quota",
+    "applies_to": [
+      "Exchange Online"
+    ],
+    "audience": "agent",
+    "keywords": [
+      "attachment",
+      "exchange online",
+      "mailbox",
+      "quota"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0011.md"
+  },
+  {
+    "kb_id": "KB0012",
+    "title": "Teams: Teams calls have no audio after a headset reconnects: guided fix",
+    "category": "Email & Collaboration",
+    "subcategory": "Teams",
+    "applies_to": [
+      "Teams"
+    ],
+    "audience": "agent",
+    "keywords": [
+      "Teams",
+      "audio",
+      "headset",
+      "teams"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0012.md"
+  },
+  {
+    "kb_id": "KB0013",
+    "title": "SharePoint / OneDrive: a shared folder shows sync pending on one laptop: guided fix",
+    "category": "Email & Collaboration",
+    "subcategory": "SharePoint / OneDrive",
+    "applies_to": [
+      "OneDrive"
+    ],
+    "audience": "end_user",
+    "keywords": [
+      "OneDrive",
+      "SharePoint",
+      "onedrive",
+      "sync"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0013.md"
+  },
+  {
+    "kb_id": "KB0014",
+    "title": "SharePoint / OneDrive: a shared folder shows sync pending on one laptop: guided fix",
+    "category": "Email & Collaboration",
+    "subcategory": "SharePoint / OneDrive",
+    "applies_to": [
+      "OneDrive"
+    ],
+    "audience": "end_user",
+    "keywords": [
+      "OneDrive",
+      "SharePoint",
+      "onedrive",
+      "sync"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0014.md"
+  },
+  {
+    "kb_id": "KB0015",
+    "title": "Distribution List: an approved distribution-list change is not visible to a new member: guided fix",
+    "category": "Email & Collaboration",
+    "subcategory": "Distribution List",
+    "applies_to": [
+      "Exchange Online"
+    ],
+    "audience": "end_user",
+    "keywords": [
+      "distribution list",
+      "email",
+      "exchange online",
+      "membership"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0015.md"
+  },
+  {
+    "kb_id": "KB0016",
+    "title": "Laptop / Desktop: a laptop battery drains rapidly during video calls: guided fix",
+    "category": "Hardware",
+    "subcategory": "Laptop / Desktop",
+    "applies_to": [
+      "Dell Latitude 5440"
+    ],
+    "audience": "end_user",
+    "keywords": [
+      "battery",
+      "dell latitude 5440",
+      "driver",
+      "laptop"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0016.md"
+  },
+  {
+    "kb_id": "KB0017",
+    "title": "Laptop / Desktop: a laptop battery drains rapidly during video calls: guided fix",
+    "category": "Hardware",
+    "subcategory": "Laptop / Desktop",
+    "applies_to": [
+      "Dell Latitude 5440"
+    ],
+    "audience": "end_user",
+    "keywords": [
+      "battery",
+      "dell latitude 5440",
+      "driver",
+      "laptop"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0017.md"
+  },
+  {
+    "kb_id": "KB0018",
+    "title": "Monitor & Peripherals: an external monitor flickers through the docking station: guided fix",
+    "category": "Hardware",
+    "subcategory": "Monitor & Peripherals",
+    "applies_to": [
+      "Dell Latitude 5440"
+    ],
+    "audience": "end_user",
+    "keywords": [
+      "dell latitude 5440",
+      "display",
+      "dock",
+      "monitor"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0018.md"
+  },
+  {
+    "kb_id": "KB0019",
+    "title": "Printer / Scanner: print jobs remain queued on the shared floor printer: guided fix",
+    "category": "Hardware",
+    "subcategory": "Printer / Scanner",
+    "applies_to": [
+      "LaserJet"
+    ],
+    "audience": "end_user",
+    "keywords": [
+      "laserjet",
+      "paper jam",
+      "printer",
+      "queue"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0019.md"
+  },
+  {
+    "kb_id": "KB0020",
+    "title": "Printer / Scanner: print jobs remain queued on the shared floor printer: guided fix",
+    "category": "Hardware",
+    "subcategory": "Printer / Scanner",
+    "applies_to": [
+      "LaserJet"
+    ],
+    "audience": "agent",
+    "keywords": [
+      "laserjet",
+      "paper jam",
+      "printer",
+      "queue"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0020.md"
+  },
+  {
+    "kb_id": "KB0021",
+    "title": "Mobile Device: a managed phone no longer receives work-profile notifications: guided fix",
+    "category": "Hardware",
+    "subcategory": "Mobile Device",
+    "applies_to": [
+      "iPhone"
+    ],
+    "audience": "end_user",
+    "keywords": [
+      "iphone",
+      "mobile",
+      "notification",
+      "phone"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0021.md"
+  },
+  {
+    "kb_id": "KB0022",
+    "title": "New Hardware Request: a new joiner needs a standard laptop before the start date: guided fix",
+    "category": "Hardware",
+    "subcategory": "New Hardware Request",
+    "applies_to": [
+      "Dell Latitude 5440"
+    ],
+    "audience": "end_user",
+    "keywords": [
+      "dell latitude 5440",
+      "joiner",
+      "laptop",
+      "new hardware"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0022.md"
+  },
+  {
+    "kb_id": "KB0023",
+    "title": "New Hardware Request: a new joiner needs a standard laptop before the start date: guided fix",
+    "category": "Hardware",
+    "subcategory": "New Hardware Request",
+    "applies_to": [
+      "Dell Latitude 5440"
+    ],
+    "audience": "end_user",
+    "keywords": [
+      "dell latitude 5440",
+      "joiner",
+      "laptop",
+      "new hardware"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0023.md"
+  },
+  {
+    "kb_id": "KB0024",
+    "title": "Installation / Licence: Power BI installation reports that no licence is available: guided fix",
+    "category": "Software & Applications",
+    "subcategory": "Installation / Licence",
+    "applies_to": [
+      "Power BI"
+    ],
+    "audience": "end_user",
+    "keywords": [
+      "Power BI",
+      "install",
+      "licence",
+      "power bi"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0024.md"
+  },
+  {
+    "kb_id": "KB0025",
+    "title": "MS Office: Excel shows an activation prompt each time a workbook opens: guided fix",
+    "category": "Software & Applications",
+    "subcategory": "MS Office",
+    "applies_to": [
+      "MS Office"
+    ],
+    "audience": "end_user",
+    "keywords": [
+      "Excel",
+      "Office",
+      "activation",
+      "ms office"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0025.md"
+  },
+  {
+    "kb_id": "KB0026",
+    "title": "MS Office: Excel shows an activation prompt each time a workbook opens: guided fix",
+    "category": "Software & Applications",
+    "subcategory": "MS Office",
+    "applies_to": [
+      "MS Office"
+    ],
+    "audience": "end_user",
+    "keywords": [
+      "Excel",
+      "Office",
+      "activation",
+      "ms office"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0026.md"
+  },
+  {
+    "kb_id": "KB0027",
+    "title": "Business Application: SAP FICO rejects a valid monthly-close transaction: guided fix",
+    "category": "Software & Applications",
+    "subcategory": "Business Application",
+    "applies_to": [
+      "SAP FICO"
+    ],
+    "audience": "end_user",
+    "keywords": [
+      "SAP FICO",
+      "finance",
+      "sap fico",
+      "transaction"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0027.md"
+  },
+  {
+    "kb_id": "KB0028",
+    "title": "Browser: an internal portal loops back to sign-in in Chrome: guided fix",
+    "category": "Software & Applications",
+    "subcategory": "Browser",
+    "applies_to": [
+      "Chrome"
+    ],
+    "audience": "end_user",
+    "keywords": [
+      "Chrome",
+      "chrome",
+      "portal",
+      "sign-in"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0028.md"
+  },
+  {
+    "kb_id": "KB0029",
+    "title": "Browser: an internal portal loops back to sign-in in Chrome: guided fix",
+    "category": "Software & Applications",
+    "subcategory": "Browser",
+    "applies_to": [
+      "Chrome"
+    ],
+    "audience": "end_user",
+    "keywords": [
+      "Chrome",
+      "chrome",
+      "portal",
+      "sign-in"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0029.md"
+  },
+  {
+    "kb_id": "KB0030",
+    "title": "OS Update: a managed Windows update repeatedly rolls back: guided fix",
+    "category": "Software & Applications",
+    "subcategory": "OS Update",
+    "applies_to": [
+      "Windows 11"
+    ],
+    "audience": "end_user",
+    "keywords": [
+      "Windows 11",
+      "rollback",
+      "update",
+      "windows 11"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0030.md"
+  },
+  {
+    "kb_id": "KB0031",
+    "title": "VPN: VPN disconnects every few minutes while working from home: guided fix",
+    "category": "Network & Connectivity",
+    "subcategory": "VPN",
+    "applies_to": [
+      "GlobalProtect VPN"
+    ],
+    "audience": "end_user",
+    "keywords": [
+      "GlobalProtect",
+      "VPN",
+      "disconnect",
+      "globalprotect vpn"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0031.md"
+  },
+  {
+    "kb_id": "KB0032",
+    "title": "VPN: VPN disconnects every few minutes while working from home: guided fix",
+    "category": "Network & Connectivity",
+    "subcategory": "VPN",
+    "applies_to": [
+      "GlobalProtect VPN"
+    ],
+    "audience": "end_user",
+    "keywords": [
+      "GlobalProtect",
+      "VPN",
+      "disconnect",
+      "globalprotect vpn"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0032.md"
+  },
+  {
+    "kb_id": "KB0033",
+    "title": "Wi-Fi: several meeting-room devices cannot join employee Wi-Fi: guided fix",
+    "category": "Network & Connectivity",
+    "subcategory": "Wi-Fi",
+    "applies_to": [
+      "Office Wi-Fi"
+    ],
+    "audience": "end_user",
+    "keywords": [
+      "Wi-Fi",
+      "connection",
+      "meeting room",
+      "office wi-fi"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0033.md"
+  },
+  {
+    "kb_id": "KB0034",
+    "title": "Wired LAN / Internet: a desk has no wired network after a floor move: guided fix",
+    "category": "Network & Connectivity",
+    "subcategory": "Wired LAN / Internet",
+    "applies_to": [
+      "Office LAN"
+    ],
+    "audience": "end_user",
+    "keywords": [
+      "LAN",
+      "network",
+      "office lan",
+      "wired"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0034.md"
+  },
+  {
+    "kb_id": "KB0035",
+    "title": "Wired LAN / Internet: a desk has no wired network after a floor move: guided fix",
+    "category": "Network & Connectivity",
+    "subcategory": "Wired LAN / Internet",
+    "applies_to": [
+      "Office LAN"
+    ],
+    "audience": "end_user",
+    "keywords": [
+      "LAN",
+      "network",
+      "office lan",
+      "wired"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0035.md"
+  },
+  {
+    "kb_id": "KB0036",
+    "title": "DNS / Proxy: an approved vendor portal returns a proxy resolution error: guided fix",
+    "category": "Network & Connectivity",
+    "subcategory": "DNS / Proxy",
+    "applies_to": [
+      "Proxy"
+    ],
+    "audience": "end_user",
+    "keywords": [
+      "DNS",
+      "hostname",
+      "proxy"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0036.md"
+  },
+  {
+    "kb_id": "KB0037",
+    "title": "Server / VM: a scheduled application VM is not responding after maintenance: guided fix",
+    "category": "Infrastructure",
+    "subcategory": "Server / VM",
+    "applies_to": [
+      "Azure VM"
+    ],
+    "audience": "end_user",
+    "keywords": [
+      "VM",
+      "azure vm",
+      "maintenance",
+      "server"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0037.md"
+  },
+  {
+    "kb_id": "KB0038",
+    "title": "Server / VM: a scheduled application VM is not responding after maintenance: guided fix",
+    "category": "Infrastructure",
+    "subcategory": "Server / VM",
+    "applies_to": [
+      "Azure VM"
+    ],
+    "audience": "end_user",
+    "keywords": [
+      "VM",
+      "azure vm",
+      "maintenance",
+      "server"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0038.md"
+  },
+  {
+    "kb_id": "KB0039",
+    "title": "Storage / File Share: the shared finance drive is unavailable to the whole team: guided fix",
+    "category": "Infrastructure",
+    "subcategory": "Storage / File Share",
+    "applies_to": [
+      "File server FS01"
+    ],
+    "audience": "end_user",
+    "keywords": [
+      "file server fs01",
+      "file share",
+      "storage",
+      "unavailable"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0039.md"
+  },
+  {
+    "kb_id": "KB0040",
+    "title": "Backup & Restore: the nightly backup job reports a failed snapshot: guided fix",
+    "category": "Infrastructure",
+    "subcategory": "Backup & Restore",
+    "applies_to": [
+      "Backup service"
+    ],
+    "audience": "end_user",
+    "keywords": [
+      "backup",
+      "backup service",
+      "restore",
+      "snapshot"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0040.md"
+  },
+  {
+    "kb_id": "KB0041",
+    "title": "Backup & Restore: the nightly backup job reports a failed snapshot: guided fix",
+    "category": "Infrastructure",
+    "subcategory": "Backup & Restore",
+    "applies_to": [
+      "Backup service"
+    ],
+    "audience": "end_user",
+    "keywords": [
+      "backup",
+      "backup service",
+      "restore",
+      "snapshot"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0041.md"
+  },
+  {
+    "kb_id": "KB0042",
+    "title": "Database: a reporting query times out for several analysts: guided fix",
+    "category": "Infrastructure",
+    "subcategory": "Database",
+    "applies_to": [
+      "SQL cluster"
+    ],
+    "audience": "end_user",
+    "keywords": [
+      "SQL",
+      "database",
+      "sql cluster",
+      "timeout"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0042.md"
+  },
+  {
+    "kb_id": "KB0043",
+    "title": "Phishing Report: an employee received a message asking them to approve an unexpected sign-in: guided fix",
+    "category": "Security",
+    "subcategory": "Phishing Report",
+    "applies_to": [
+      "Email gateway"
+    ],
+    "audience": "end_user",
+    "keywords": [
+      "email gateway",
+      "phishing",
+      "report",
+      "suspicious email"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0043.md"
+  },
+  {
+    "kb_id": "KB0044",
+    "title": "Phishing Report: an employee received a message asking them to approve an unexpected sign-in: guided fix",
+    "category": "Security",
+    "subcategory": "Phishing Report",
+    "applies_to": [
+      "Email gateway"
+    ],
+    "audience": "end_user",
+    "keywords": [
+      "email gateway",
+      "phishing",
+      "report",
+      "suspicious email"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0044.md"
+  },
+  {
+    "kb_id": "KB0045",
+    "title": "Malware / Virus: Defender quarantined a file downloaded from an unverified attachment: guided fix",
+    "category": "Security",
+    "subcategory": "Malware / Virus",
+    "applies_to": [
+      "Defender"
+    ],
+    "audience": "end_user",
+    "keywords": [
+      "Defender",
+      "defender",
+      "malware",
+      "quarantine"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0045.md"
+  },
+  {
+    "kb_id": "KB0046",
+    "title": "Lost or Stolen Device: a managed phone was lost during travel and contains work data: guided fix",
+    "category": "Security",
+    "subcategory": "Lost or Stolen Device",
+    "applies_to": [
+      "iPhone"
+    ],
+    "audience": "end_user",
+    "keywords": [
+      "iphone",
+      "lost device",
+      "mobile",
+      "security"
+    ],
+    "version": 2,
+    "status": "Published",
+    "last_reviewed": "2026-08-15",
+    "superseded_by": null,
+    "path": "kb/KB0046.md"
+  },
+  {
+    "kb_id": "KB0047",
+    "title": "SharePoint / OneDrive: a shared folder shows sync pending on one laptop: guided fix (retired version)",
+    "category": "Email & Collaboration",
+    "subcategory": "SharePoint / OneDrive",
+    "applies_to": [
+      "OneDrive"
+    ],
+    "audience": "end_user",
+    "keywords": [
+      "OneDrive",
+      "SharePoint",
+      "onedrive",
+      "sync"
+    ],
+    "version": 1,
+    "status": "Retired",
+    "last_reviewed": "2025-11-01",
+    "superseded_by": "KB0013",
+    "path": "kb/KB0047.md"
+  },
+  {
+    "kb_id": "KB0048",
+    "title": "SharePoint / OneDrive: a shared folder shows sync pending on one laptop: guided fix (retired version)",
+    "category": "Email & Collaboration",
+    "subcategory": "SharePoint / OneDrive",
+    "applies_to": [
+      "OneDrive"
+    ],
+    "audience": "end_user",
+    "keywords": [
+      "OneDrive",
+      "SharePoint",
+      "onedrive",
+      "sync"
+    ],
+    "version": 1,
+    "status": "Retired",
+    "last_reviewed": "2025-11-01",
+    "superseded_by": "KB0014",
+    "path": "kb/KB0048.md"
+  },
+  {
+    "kb_id": "KB0049",
+    "title": "Distribution List: an approved distribution-list change is not visible to a new member: guided fix (retired version)",
+    "category": "Email & Collaboration",
+    "subcategory": "Distribution List",
+    "applies_to": [
+      "Exchange Online"
+    ],
+    "audience": "end_user",
+    "keywords": [
+      "distribution list",
+      "email",
+      "exchange online",
+      "membership"
+    ],
+    "version": 1,
+    "status": "Retired",
+    "last_reviewed": "2025-11-01",
+    "superseded_by": "KB0015",
+    "path": "kb/KB0049.md"
+  },
+  {
+    "kb_id": "KB0050",
+    "title": "Laptop / Desktop: a laptop battery drains rapidly during video calls: guided fix (retired version)",
+    "category": "Hardware",
+    "subcategory": "Laptop / Desktop",
+    "applies_to": [
+      "Dell Latitude 5440"
+    ],
+    "audience": "end_user",
+    "keywords": [
+      "battery",
+      "dell latitude 5440",
+      "driver",
+      "laptop"
+    ],
+    "version": 1,
+    "status": "Retired",
+    "last_reviewed": "2025-11-01",
+    "superseded_by": "KB0016",
+    "path": "kb/KB0050.md"
+  }
+]

@@ -1,0 +1,124 @@
+{
+  "categories": [
+    {
+      "name": "Access & Identity",
+      "subcategories": [
+        "Password Reset",
+        "Account Locked",
+        "MFA",
+        "New Access Request",
+        "Permission Change"
+      ],
+      "example_cis": [
+        "Active Directory",
+        "Okta/Entra ID",
+        "SAP"
+      ],
+      "default_assignment_group": "Identity & Access Mgmt (IAM)"
+    },
+    {
+      "name": "Email & Collaboration",
+      "subcategories": [
+        "Outlook",
+        "Mailbox / Quota",
+        "Teams",
+        "SharePoint / OneDrive",
+        "Distribution List"
+      ],
+      "example_cis": [
+        "Outlook",
+        "Exchange Online",
+        "Teams",
+        "OneDrive"
+      ],
+      "default_assignment_group": "Collaboration Support"
+    },
+    {
+      "name": "Hardware",
+      "subcategories": [
+        "Laptop / Desktop",
+        "Monitor & Peripherals",
+        "Printer / Scanner",
+        "Mobile Device",
+        "New Hardware Request"
+      ],
+      "example_cis": [
+        "Dell Latitude 5440",
+        "HP Desktop",
+        "LaserJet",
+        "iPhone"
+      ],
+      "default_assignment_group": "Desktop Support"
+    },
+    {
+      "name": "Software & Applications",
+      "subcategories": [
+        "Installation / Licence",
+        "MS Office",
+        "Business Application",
+        "Browser",
+        "OS Update"
+      ],
+      "example_cis": [
+        "Power BI",
+        "SAP FICO",
+        "Salesforce",
+        "Chrome",
+        "Windows 11"
+      ],
+      "default_assignment_group": "Application Support"
+    },
+    {
+      "name": "Network & Connectivity",
+      "subcategories": [
+        "VPN",
+        "Wi-Fi",
+        "Wired LAN / Internet",
+        "DNS / Proxy"
+      ],
+      "example_cis": [
+        "GlobalProtect VPN",
+        "Office Wi-Fi",
+        "Proxy"
+      ],
+      "default_assignment_group": "Network Operations"
+    },
+    {
+      "name": "Infrastructure",
+      "subcategories": [
+        "Server / VM",
+        "Storage / File Share",
+        "Backup & Restore",
+        "Database"
+      ],
+      "example_cis": [
+        "File server FS01",
+        "SQL cluster",
+        "Azure VM"
+      ],
+      "default_assignment_group": "Infrastructure Ops"
+    },
+    {
+      "name": "Security",
+      "subcategories": [
+        "Phishing Report",
+        "Malware / Virus",
+        "Lost or Stolen Device",
+        "Suspicious Login",
+        "Data Exposure"
+      ],
+      "example_cis": [
+        "Defender",
+        "Email gateway",
+        "Data gateway"
+      ],
+      "default_assignment_group": "Security Operations (SOC)"
+    }
+  ],
+  "fallback_assignment_group": "Service Desk L1",
+  "out_of_scope": {
+    "category": "Out of scope",
+    "assignment_group": null,
+    "action": "redirect"
+  }
+}

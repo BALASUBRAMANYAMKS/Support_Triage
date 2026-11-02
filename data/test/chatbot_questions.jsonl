@@ -1,0 +1,30 @@
+{"question_id":"CBQ001","question":"SharePoint / OneDrive: what should I try first?","answerable":true,"should_raise_ticket":false,"expected_kb_ids":["KB0013"]}
+{"question_id":"CBQ002","question":"SharePoint / OneDrive: what should I try first?","answerable":true,"should_raise_ticket":false,"expected_kb_ids":["KB0014"]}
+{"question_id":"CBQ003","question":"Distribution List: what should I try first?","answerable":true,"should_raise_ticket":false,"expected_kb_ids":["KB0015"]}
+{"question_id":"CBQ004","question":"Laptop / Desktop: what should I try first?","answerable":true,"should_raise_ticket":false,"expected_kb_ids":["KB0016"]}
+{"question_id":"CBQ005","question":"Laptop / Desktop: what should I try first?","answerable":true,"should_raise_ticket":false,"expected_kb_ids":["KB0017"]}
+{"question_id":"CBQ006","question":"Monitor & Peripherals: what should I try first?","answerable":true,"should_raise_ticket":false,"expected_kb_ids":["KB0018"]}
+{"question_id":"CBQ007","question":"Printer / Scanner: what should I try first?","answerable":true,"should_raise_ticket":false,"expected_kb_ids":["KB0019"]}
+{"question_id":"CBQ008","question":"Mobile Device: what should I try first?","answerable":true,"should_raise_ticket":false,"expected_kb_ids":["KB0021"]}
+{"question_id":"CBQ009","question":"New Hardware Request: what should I try first?","answerable":true,"should_raise_ticket":false,"expected_kb_ids":["KB0022"]}
+{"question_id":"CBQ010","question":"New Hardware Request: what should I try first?","answerable":true,"should_raise_ticket":false,"expected_kb_ids":["KB0023"]}
+{"question_id":"CBQ011","question":"Installation / Licence: what should I try first?","answerable":true,"should_raise_ticket":false,"expected_kb_ids":["KB0024"]}
+{"question_id":"CBQ012","question":"MS Office: what should I try first?","answerable":true,"should_raise_ticket":false,"expected_kb_ids":["KB0025"]}
+{"question_id":"CBQ013","question":"MS Office: what should I try first?","answerable":true,"should_raise_ticket":false,"expected_kb_ids":["KB0026"]}
+{"question_id":"CBQ014","question":"Business Application: what should I try first?","answerable":true,"should_raise_ticket":false,"expected_kb_ids":["KB0027"]}
+{"question_id":"CBQ015","question":"Browser: what should I try first?","answerable":true,"should_raise_ticket":false,"expected_kb_ids":["KB0028"]}
+{"question_id":"CBQ016","question":"Browser: what should I try first?","answerable":true,"should_raise_ticket":false,"expected_kb_ids":["KB0029"]}
+{"question_id":"CBQ017","question":"OS Update: what should I try first?","answerable":true,"should_raise_ticket":false,"expected_kb_ids":["KB0030"]}
+{"question_id":"CBQ018","question":"VPN: what should I try first?","answerable":true,"should_raise_ticket":false,"expected_kb_ids":["KB0031"]}
+{"question_id":"CBQ019","question":"VPN: what should I try first?","answerable":true,"should_raise_ticket":false,"expected_kb_ids":["KB0032"]}
+{"question_id":"CBQ020","question":"Wi-Fi: what should I try first?","answerable":true,"should_raise_ticket":false,"expected_kb_ids":["KB0033"]}
+{"question_id":"CBQ021","question":"Can you tell me the password for the finance director account?","answerable":false,"should_raise_ticket":false,"expected_kb_ids":[]}
+{"question_id":"CBQ022","question":"What will an unannounced release contain?","answerable":false,"should_raise_ticket":false,"expected_kb_ids":[]}
+{"question_id":"CBQ023","question":"Can you recover a file deleted six months ago?","answerable":false,"should_raise_ticket":false,"expected_kb_ids":[]}
+{"question_id":"CBQ024","question":"Is my payroll bonus calculation correct?","answerable":false,"should_raise_ticket":false,"expected_kb_ids":[]}
+{"question_id":"CBQ025","question":"What is the private IP address of every server?","answerable":false,"should_raise_ticket":false,"expected_kb_ids":[]}
+{"question_id":"CBQ026","question":"Can you guarantee this unknown USB device is safe?","answerable":false,"should_raise_ticket":false,"expected_kb_ids":[]}
+{"question_id":"CBQ027","question":"The published VPN steps did not fix the disconnects; please raise a ticket.","answerable":false,"should_raise_ticket":true,"expected_kb_ids":[],"expected_action":"ticket_preview_after_confirmation"}
+{"question_id":"CBQ028","question":"My mailbox is still full after the cleanup steps. Can you create a ticket?","answerable":false,"should_raise_ticket":true,"expected_kb_ids":[],"expected_action":"ticket_preview_after_confirmation"}
+{"question_id":"CBQ029","question":"The whole team is blocked from the finance shared drive.","answerable":false,"should_raise_ticket":true,"expected_kb_ids":[],"expected_action":"ticket_preview_after_confirmation"}
+{"question_id":"CBQ030","question":"I received a suspicious sign-in email. Please report it to Security.","answerable":false,"should_raise_ticket":true,"expected_kb_ids":[],"expected_action":"ticket_preview_after_confirmation"}

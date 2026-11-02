@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Support Ticket",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "ticket_id", "ticket_type", "channel", "created_at", "requester",
+    "short_description", "description", "category", "subcategory", "affected_ci",
+    "impact", "urgency", "priority", "assignment_group", "assigned_to", "status",
+    "pending_reason", "sla_response_due", "sla_resolution_due", "first_response_at",
+    "resolved_at", "closed_at", "sla_breached", "resolution_code", "resolution_notes",
+    "work_notes", "kb_references", "duplicate_of", "reassignment_count", "reopen_count",
+    "csat_score", "tags"
+  ],
+  "properties": {
+    "ticket_id": { "type": "string", "pattern": "^(INC|REQ)[0-9]{7}$" },
+    "ticket_type": { "type": "string", "enum": ["Incident", "Service Request"] },
+    "channel": { "type": "string", "enum": ["Portal", "Email", "Chatbot", "Phone"] },
+    "created_at": { "type": "string", "format": "date-time" },
+    "requester": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["requester_id", "name", "email", "department", "location", "job_title", "is_vip"],
+      "properties": {
+        "requester_id": { "type": "string" },
+        "name": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "department": { "type": "string", "enum": ["Finance", "HR", "Sales", "Engineering", "Operations", "Legal", "Leadership"] },
+        "location": { "type": "string", "enum": ["Chennai", "Bengaluru", "Pune", "Hyderabad", "Noida"] },
+        "job_title": { "type": "string" },
+        "is_vip": { "type": "boolean" }
+      }
+    },
+    "short_description": { "type": "string", "minLength": 1, "maxLength": 120 },
+    "description": { "type": "string", "minLength": 1 },
+    "category": { "type": ["string", "null"] },
+    "subcategory": { "type": ["string", "null"] },
+    "affected_ci": { "type": ["string", "null"] },
+    "impact": { "type": ["string", "null"], "enum": ["High", "Medium", "Low", null] },
+    "urgency": { "type": ["string", "null"], "enum": ["High", "Medium", "Low", null] },
+    "priority": { "type": ["string", "null"], "enum": ["P1", "P2", "P3", "P4", null] },
+    "assignment_group": { "type": ["string", "null"] },
+    "assigned_to": { "type": ["string", "null"] },
+    "status": { "type": "string", "enum": ["New", "Assigned", "In Progress", "Pending", "Resolved", "Closed", "Cancelled"] },
+    "pending_reason": { "type": ["string", "null"], "enum": ["Awaiting User", "Awaiting Vendor", "Awaiting Change", null] },
+    "sla_response_due": { "type": ["string", "null"], "format": "date-time" },
+    "sla_resolution_due": { "type": ["string", "null"], "format": "date-time" },
+    "first_response_at": { "type": ["string", "null"], "format": "date-time" },
+    "resolved_at": { "type": ["string", "null"], "format": "date-time" },
+    "closed_at": { "type": ["string", "null"], "format": "date-time" },
+    "sla_breached": { "type": "boolean" },
+    "resolution_code": { "type": ["string", "null"], "enum": ["Solved (Permanent Fix)", "Solved (Workaround)", "User Error / Training", "Not Reproducible", "Duplicate", "Cancelled by User", null] },
+    "resolution_notes": { "type": ["string", "null"] },
+    "work_notes": { "type": "array", "items": { "type": "object", "additionalProperties": false, "required": ["timestamp", "author", "note"], "properties": { "timestamp": { "type": "string", "format": "date-time" }, "author": { "type": "string" }, "note": { "type": "string" } } } },
+    "kb_references": { "type": "array", "items": { "type": "string", "pattern": "^KB[0-9]{4}$" } },
+    "duplicate_of": { "type": ["string", "null"], "pattern": "^(INC|REQ)[0-9]{7}$" },
+    "reassignment_count": { "type": "integer", "minimum": 0 },
+    "reopen_count": { "type": "integer", "minimum": 0 },
+    "csat_score": { "type": ["integer", "null"], "minimum": 1, "maximum": 5 },
+    "tags": { "type": "array", "items": { "type": "string" } }
+  }
+}

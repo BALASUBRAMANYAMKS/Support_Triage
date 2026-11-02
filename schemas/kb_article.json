@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Knowledge Base Article",
+  "type": "object",
+  "required": ["kb_id", "title", "category", "subcategory", "applies_to", "audience", "body", "keywords", "version", "status", "last_reviewed"],
+  "properties": {
+    "kb_id": {"type":"string","pattern":"^KB[0-9]{4}$"},
+    "title": {"type":"string","minLength":1},
+    "category": {"type":"string"},
+    "subcategory": {"type":"string"},
+    "applies_to": {"type":"array","items":{"type":"string"},"minItems":1},
+    "audience": {"type":"string","enum":["end_user","agent"]},
+    "body": {"type":"string","minLength":1},
+    "keywords": {"type":"array","items":{"type":"string"}},
+    "version": {"type":"integer","minimum":1},
+    "status": {"type":"string","enum":["Published","Retired"]},
+    "last_reviewed": {"type":"string","format":"date"},
+    "superseded_by": {"type":["string","null"],"pattern":"^KB[0-9]{4}$"}
+  }
+}
