@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+streamlit
+pydantic>=2,<3
+PyYAML
+python-dotenv
+chromadb
+sentence-transformers
+rank-bm25
+groq
+google-genai
+openai
+pandas
+plotly
+scikit-learn
+httpx
+python-multipart
